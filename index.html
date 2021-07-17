@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.1.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merienda&family=Quicksand&family=Ubuntu:wght@300&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css"/>
+    <title>video confernce</title>
+</head>
+<body>
+    <div class="heading">
+    <h1>Remote connection with your team
+    </h1>
+    </div>
+    <div class="center-box">
+    <div class="container">
+        <div id="local" class="left"></div>
+         <div class="rightstream"> 
+             <div style="text-align: center;font-weight: bold;height: 25px;">participants</div>
+            <div id="remote" class="right"></div>
+         </div>
+        
+    
+
+    </div>
+    <div class="audio">
+        <button onclick="mute()" class="mute"> <img src="https://img.icons8.com/material-rounded/24/000000/block-microphone.png"/></button>
+        <button onclick="removevid()"  class="remove"> <img src="https://img.icons8.com/android/24/000000/end-call.png"/> </button>
+        <button onclick="unmute()" class="unmute"><img src="https://img.icons8.com/material-rounded/24/000000/microphone.png"/></button>
+      </div>
+    </div>
+</body>
+<script src="chat.js"></script>
+</html>

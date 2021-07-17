@@ -1,0 +1,110 @@
+body{
+    background-image:url("https://i2.wp.com/devetry.com/wp-content/uploads/2020/04/white-zoom-background.jpg");
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.heading{
+    text-align:center;
+}
+h1{
+    color:ivory;
+}
+.container{
+    width:80%;
+    height:350px;
+    border:1px solid grey;
+    margin:0 auto;
+    display: flex;
+    border-radius: 8px;
+    border:none;
+}
+.center-box{
+    width:70%;
+    margin:0 auto;
+    padding: 50px;
+    padding-bottom: 30px;
+    background-color: #F6FCFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 grey;
+}
+.left{
+    height:350px;
+    width:60%;
+    border-radius: 9px;
+    margin-right:5px;
+    background-color: blueviolet;
+}
+.right{
+    height:328px;
+    width:90%;
+    border-radius: 8px;
+    background-color:cadetblue;
+    display:flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    
+}
+.right video{
+    height:1px;
+    width:10px;
+    border-radius: 9px;
+    position:relative !important;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+.rightstream{
+    width:50%;
+}
+.remotestream::-webkit-scrollbar{
+    display: none;
+}
+#remote{
+        flex-flow:column;
+}
+
+.audio{
+    margin-top: 4%;
+    margin-left: 38%;
+}
+.mute{
+    margin-right: 10%;
+    border:none;
+    background-color:white;
+    box-shadow:0 5px 5px 0 lightgrey ;
+    padding:10px;
+    border-radius:10px ;
+}
+.mute:hover
+{
+    background-color: #F6FCFF;
+    opacity:0.5;
+}
+.remove{
+    margin-right: 10%;
+    border:none;
+    background-color:white;
+    box-shadow:0 5px 5px 0 lightgrey ;
+    padding:10px;
+    border-radius:10px ;
+}
+.unmute{
+    border:none;
+    background-color:white;
+    padding:10px;
+    border-radius:10px ;
+    box-shadow:0 5px 5px 0 lightgrey ;
+}
+.unmute:hover
+{
+    background-color: #F6FCFF;
+    opacity:0.5;
+}
+.remove:hover
+{
+    background-color: #F6FCFF;
+    opacity:0.5;
+}
